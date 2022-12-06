@@ -36,6 +36,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    "bookmarks.account",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -44,7 +45,6 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_extensions",
     "bookmarks",
-    "bookmarks.account",
 ]
 
 MIDDLEWARE = [
