@@ -17,6 +17,7 @@ python-dotenv = "^0.21.0"
 flake8 = "5.0.4"
 black = "^22.10.0"
 isort = "^5.10.1"
+flake8-django = "^1.1.5"
 
 [build-system]
 requires = ["poetry-core"]
@@ -24,7 +25,7 @@ build-backend = "poetry.core.masonry.api"
 
 
 [tool.black]
-line-length = 79
+line-length = 88
 extend-exclude = '''
 /(
   | migrations

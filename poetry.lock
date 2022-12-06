@@ -104,6 +104,17 @@ pycodestyle = ">=2.9.0,<2.10.0"
 pyflakes = ">=2.5.0,<2.6.0"
 
 [[package]]
+name = "flake8-django"
+version = "1.1.5"
+description = "Plugin to catch bad style specific to Django Projects."
+category = "dev"
+optional = false
+python-versions = ">=3.7,<4.0"
+
+[package.dependencies]
+flake8 = ">=3.8.4,<6"
+
+[[package]]
 name = "isort"
 version = "5.10.1"
 description = "A Python utility / library to sort Python imports."
@@ -215,7 +226,7 @@ python-versions = ">=2"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "d5dad5f1781c66c473c408916888eaaf8bc553b42ebfb4e6ed303d4d67b01249"
+content-hash = "ce065db2f5d3ec29d38f3b70fa5d20742888642dabec0c4eb2c1df0aa5ddee84"
 
 [metadata.files]
 asgiref = [
@@ -282,6 +293,10 @@ django-extensions = [
 flake8 = [
     {file = "flake8-5.0.4-py2.py3-none-any.whl", hash = "sha256:7a1cf6b73744f5806ab95e526f6f0d8c01c66d7bbe349562d22dfca20610b248"},
     {file = "flake8-5.0.4.tar.gz", hash = "sha256:6fbe320aad8d6b95cec8b8e47bc933004678dc63095be98528b7bdd2a9f510db"},
+]
+flake8-django = [
+    {file = "flake8-django-1.1.5.tar.gz", hash = "sha256:d6c4b2b7eb5e4c3166d546c200bbb3d88667d985a0cfb1c097ccb9a125d6560d"},
+    {file = "flake8_django-1.1.5-py3-none-any.whl", hash = "sha256:df77ada19fa7838bf1894d98d92cf5cbe65e20337eb7be21d76781883c237c32"},
 ]
 isort = [
     {file = "isort-5.10.1-py3-none-any.whl", hash = "sha256:6f62d78e2f89b4500b080fe3a81690850cd254227f27f75c3a0c491a1f351ba7"},
