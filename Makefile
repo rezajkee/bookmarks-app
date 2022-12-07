@@ -4,6 +4,10 @@ MANAGE := poetry run python manage.py
 runserver:
 	@$(MANAGE) runserver
 
+.PHONY: plusrunserver
+plusrunserver:
+	@$(MANAGE) runserver_plus --cert-file cert.crt
+
 .PHONY: makemigrations
 makemigrations:
 	@$(MANAGE) makemigrations
