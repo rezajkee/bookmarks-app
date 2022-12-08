@@ -148,6 +148,21 @@ python-versions = ">=3.6"
 Django = ">=3.2"
 
 [[package]]
+name = "easy-thumbnails"
+version = "2.8.3"
+description = "Easy thumbnails for Django"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+django = ">=2.2"
+pillow = "*"
+
+[package.extras]
+svg = ["reportlab", "svglib"]
+
+[[package]]
 name = "flake8"
 version = "5.0.4"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -471,7 +486,7 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "7537de3becef1753714896b22dad6a533336725c8d5574cad1b91b120cccc008"
+content-hash = "2dfd0d86fcaba299af516ccbd9b3cc48615845fc0026202e0a67210c7da3f4e4"
 
 [metadata.files]
 asgiref = [
@@ -640,6 +655,10 @@ Django = [
 django-extensions = [
     {file = "django-extensions-3.2.1.tar.gz", hash = "sha256:2a4f4d757be2563cd1ff7cfdf2e57468f5f931cc88b23cf82ca75717aae504a4"},
     {file = "django_extensions-3.2.1-py3-none-any.whl", hash = "sha256:421464be390289513f86cb5e18eb43e5dc1de8b4c27ba9faa3b91261b0d67e09"},
+]
+easy-thumbnails = [
+    {file = "easy-thumbnails-2.8.3.tar.gz", hash = "sha256:8a3ec61bb8c72fac7f75e811a96e3cd7942ac89cab55ab16549d6d2ce9cdeaa5"},
+    {file = "easy_thumbnails-2.8.3-py3-none-any.whl", hash = "sha256:fc697845103b65279df6c5c0834b0c165bdef07edd6220a06a7a05ca934d582c"},
 ]
 flake8 = [
     {file = "flake8-5.0.4-py2.py3-none-any.whl", hash = "sha256:7a1cf6b73744f5806ab95e526f6f0d8c01c66d7bbe349562d22dfca20610b248"},

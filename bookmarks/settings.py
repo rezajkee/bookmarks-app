@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     "bookmarks",
     "social_django",
     "bookmarks.images",
+    "easy_thumbnails",
 ]
 
 MIDDLEWARE = [
