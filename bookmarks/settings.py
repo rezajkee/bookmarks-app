@@ -46,8 +46,9 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "django_extensions",
     "bookmarks",
-    "social_django",
     "bookmarks.images",
+    "bookmarks.actions",
+    "social_django",
     "easy_thumbnails",
 ]
 
